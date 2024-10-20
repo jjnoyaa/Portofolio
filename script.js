@@ -1,6 +1,15 @@
 const panels=document.querySelectorAll('.panel') //mendapat smua elemen panel dn menyimpan ke dalam panels
 const sounds = //mendefinisikan array soud yg berisi audio yg akan di putar
- ['suara/sempurna.mp3'];
+ ['suara/kapall1.mp3',
+ 'suara/kapall2.mp3', 
+ 'suara/kapall3.mp3',
+ 'suara/kapall4.mp3', 
+ 'suara/kapall5.mp3', 
+ 'suara/kapall6.mp3', 
+ 'suara/kapall7.mp3', 
+ 'suara/kapall8.mp3', 
+ 'suara/kapall9.mp3', 
+ 'suara/kapall10.mp3'];
 
 let currentAudio = null; //mendeklarasikan variabel currentaudio yg sebelumnya tdk berisi apa" dan akan mnyimpan objek audia yg akan di putar
 
